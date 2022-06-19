@@ -1,12 +1,12 @@
 let modInfo = {
-	name: "The Numbruh Tree",
-	id: "JHTNT",
+	name: "The Numbruh Tree Ketchup",
+	id: "JHTNTK",
 	author: "JeehanMoment",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "JeehanMoment's Modded stuffs",
-	discordLink: "https://discord.gg/4mPMTVJGf3",
+	discordLink: "https://lun4-r.github.io/omega-layers-ex/",
 	initialStartPoints: new Decimal (0), // Used for hard resets and new players
 	offlineLimit: 1,  // In hours
 }
@@ -18,7 +18,7 @@ let VERSION = {
 }
 
 let changelog = `<h1>Changelog:</h1><br>
-    <h2>Warning: This mod may be unbalanced</h2><br>
+    <h2>BAAAAAAAAAAAAAAA</h2><br>
 	<h3>V.1.2.1 - Bombs and Bricks Part 1<h3><br>
 		- Added 14 new Acievements.<br>
 		- Added 1 Automators.<br>

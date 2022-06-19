@@ -143,7 +143,7 @@ addLayer("ach", {
             onComplete() {player[this.layer].points = player[this.layer].points.add(1)}
         },
         13: {
-            name: "Nice...",
+            name: "Nicz...",
             done() {return new Decimal (player.points).gte("69420")},
             goalTooltip: "Reach 69,420 Points.",
             doneTooltip: "Reach 69,420 Points. (Completed)",
@@ -927,7 +927,7 @@ addLayer("zero", {
                 return (hasUpgrade('zero', 34) || hasMilestone('one', 0))
             },
             effect() {
-                let base = new Decimal (69)
+                let base = new Decimal (9999)
                 let expo = new Decimal (1)
                 let eff = base.pow(expo).add(100).div(100)
                 return eff
@@ -985,8 +985,8 @@ addLayer("zero", {
                 return ((hasUpgrade('zero', 44) && hasUpgrade('one', 14)) || (hasMilestone('one', 1) && hasMilestone('one', 6)))
             },
             effect() {
-                let base = new Decimal (1.1)
-                let expo = new Decimal (1)
+                let base = new Decimal (99)
+                let expo = new Decimal (3)
                 let eff = base.pow(expo)
                 return eff
             },
@@ -1242,7 +1242,7 @@ addLayer("one", {
     },
     upgrades: {
         11: {
-            title: "Triple Gains",
+            title: "Triple Gains h",
             description: "Triple your point gain.",
             cost: new Decimal (1),
             unlocked() {
